@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NServiceBus.MultiTenant</RootNamespace>
     <AssemblyName>NServiceBus.MultiTenant</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\..\NServiceBus.MessageSinks.snk</AssemblyOriginatorKeyFile>
@@ -59,6 +59,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="System.Core" />
     <Reference Include="NServiceBus, Version=3.0.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\lib\nservicebus-bin\NServiceBus.dll</HintPath>
