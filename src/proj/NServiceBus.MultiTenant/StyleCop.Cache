@@ -1,0 +1,60 @@
+<stylecopresultscache>
+  <version>10</version>
+  <sourcecode name="AssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>09/14/2010 12:30:27</timestamp>
+    <milliseconds>295</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GlobalAssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>09/14/2010 12:31:00</timestamp>
+    <milliseconds>53</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="GlobalSuppressions.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>04/15/2010 09:12:13</timestamp>
+    <milliseconds>323</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="VersionAssemblyInfo.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>04/15/2010 09:12:13</timestamp>
+    <milliseconds>328</milliseconds>
+    <violations />
+  </sourcecode>
+  <project key="-1286081796">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="AppendAccountMessageMutator.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>11/05/2010 14:24:08</timestamp>
+    <milliseconds>391</milliseconds>
+    <violations />
+  </sourcecode>
+  <sourcecode name="MultiTenantMessageMapper.cs" parser="Microsoft.StyleCop.CSharp.CsParser">
+    <settings>
+      <timestamp>06/30/2010 11:43:56</timestamp>
+      <milliseconds>0</milliseconds>
+    </settings>
+    <timestamp>11/05/2010 14:24:10</timestamp>
+    <milliseconds>336</milliseconds>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>
