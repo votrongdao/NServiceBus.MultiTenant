@@ -7,18 +7,18 @@ namespace NServiceBus.MultiTenant
 	public class MultiTenantMessageMapper : IMapOutgoingTransportMessages
 	{
 		private const string TenantHeader = "TenantId";
-		private readonly Func<Guid> getAccountId;
+		private readonly Func<Guid> getTenantId;
 
-		public MultiTenantMessageMapper(Func<Guid> getAccountId)
+		public MultiTenantMessageMapper(Func<Guid> getTenantId)
 		{
-			this.getAccountId = getAccountId;
+			this.getTenantId = getTenantId;
 		}
 
 		public void MapOutgoing(IMessage[] messages, TransportMessage transportMessage)
 		{
-			var accountId = this.getAccountId();
-			if (accountId != Guid.Empty)
-				transportMessage.Headers[TenantHeader] = accountId.ToString();
+			var tenantId = this.getTenantId();
+			if (tenantId != Guid.Empty)
+				transportMessage.Headers[TenantHeader] = tenantId.ToString();
 		}
 	}
 }
